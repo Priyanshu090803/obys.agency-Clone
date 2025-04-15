@@ -20,7 +20,7 @@ function loaderAnimation(){
                 if(c==100){
                     clearInterval(changeCounter)
                 }
-            }, 35);
+            }, 1);
             
             
         }
@@ -34,7 +34,7 @@ function loaderAnimation(){
     tl.to(".loader",{
         opacity:0,
         duration:0.2,
-        delay:4
+        delay:0 // isko 4 kar dena
     })
     tl.from(".page1",{
         y:1200,
@@ -45,5 +45,27 @@ function loaderAnimation(){
     tl.to(".loader",{
         display:"none"
     })
+    tl.from(".nav-part2 h4",{
+        opacity:0
+    })
+    tl.from("#hero1 h1, #hero2 h1 , #hero3 h2 , #hero4 h1",{
+        y:150,
+        stagger:.3
+    })
 }
 loaderAnimation()
+
+
+
+function cursorAnimation() {document.addEventListener("mousemove",(e)=>{
+    gsap.to("#crsr",{
+        left:e.x,
+        top: e.y,
+        duration:.7,
+        ease:"back.out"
+    })
+})
+
+Shery.makeMagnet(".nav-part2 h4" , { })
+}
+cursorAnimation() 
