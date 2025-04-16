@@ -283,5 +283,100 @@ html,body{
 .page5{
     width: 100%;
     min-height: 100vh;
-    padding: 5vw 0;
+    position: relative;
+}
+.elem{
+    text-transform: uppercase;
+    white-space:nowrap;
+    margin-bottom: -2vw;
+}
+.elem h1{
+    font-size: 7vw;
+    display: inline-block;
+    color: transparent;
+    font-weight: 400;
+    -webkit-text-stroke: 1px #fff;
+    margin-right: 16px;
+    animation-name: animey;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animey{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px ));
+    }
+}
+
+
+.elem2{
+    text-transform: uppercase;
+    white-space:nowrap;
+    margin-bottom: -2vw;
+}
+.elem2 h1{
+    font-size: 7vw;
+    display: inline-block;
+    color: transparent;
+    font-weight: 400;
+    -webkit-text-stroke: 1px #fff;
+    margin-right: 16px;
+    transform: translateX(calc(-100% -20px));
+    animation-name: animey;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+.elem span{
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+}
+.elem2 span{
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+}
+
+
+.footer{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    padding-left: 28vw;
+}
+
+
+.footer h1{
+    font-size: 8vw;
+    background-color: orange;
+    width: 60vw;
+}
+.footer-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    padding-right: 15vw;
+    padding-top: 4vw;
+}
+
+.footer-div h6{
+    font-size: 1vw;
+    margin-bottom: 2vh;
+    font-weight: 400;
+
+}
+.footer-div h5{
+    font-size: 1.6vw;
+    margin: 0.4vh 0;
+    font-weight: 400;
+}
+.footer .box{
+    /* display: flex;
+    flex-direction: column; */
+    width: 30%;
 }
