@@ -108,9 +108,10 @@ html,body{
 
 
 .page1{
-    height: 90vh;
+    height: 98vh;
     width: 100%;
     background-color:#191919;
+    position: relative;
 }
 .nav{
     display: flex;
@@ -138,6 +139,14 @@ html,body{
     overflow-y: hidden;
     
 }
+.hero101{
+    position: absolute;
+    font-family: "silk serif";
+    font-size: 3.4vw;
+    font-weight: 400;
+    left: 16%;
+    top: 22%;
+}
 .hero:nth-child(2){
     margin-top: 15vh;
 }
@@ -148,16 +157,7 @@ html,body{
     font-weight: 700;
     gap: 1vw;
 }
-#hero1::before{
-    position: absolute;
-    content: "01";
-    font-family: "silk serif";
-    font-size: 3.4vw;
-    font-weight: 400;
-    left: -10%;
-    top: 10%;
 
-}
 .hero h2{
     font-size: 7vw;
     text-transform:uppercase;
@@ -197,10 +197,10 @@ html,body{
 }
 .video-container img{
     position: absolute;
-    height: 101%;
+    height: 68vh;
     width: 100%;
     object-fit: cover;
-    top: 0%;
+    top: -1%;
 }
 .video-cursor{
     height: 8vw;
@@ -208,7 +208,7 @@ html,body{
     background-color: #ffa63d;
     border-radius: 50%;
     position: absolute;
-    top: 15%;
+    top: -8%;
     left: 70%;
     z-index: 99;
     display: flex;
