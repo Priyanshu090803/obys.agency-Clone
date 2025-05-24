@@ -31,9 +31,7 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
-// window.addEventListener("load", function() {
-//     locomotiveAnimation();
-// });
+
 
 
 function loaderAnimation(){
@@ -94,18 +92,6 @@ function loaderAnimation(){
         opacity:0
     },"-=1.2")  // isse ye wla animation pehle chlega`
 }
-// function cursorAnimation() {document.addEventListener("mousemove",(e)=>{
-//     // gsap.to("#crsr",{
-//     //     left:e.x,
-//     //     top: e.y,
-//     //     duration:.7,
-//     //     ease:"back.out"
-//     // })   
-    
-// })
-
-// Shery.makeMagnet(".nav-part2 h4" , { })
-// }
 
 function cursorAnimation(){
     Shery.mouseFollower({

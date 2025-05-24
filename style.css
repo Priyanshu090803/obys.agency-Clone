@@ -374,6 +374,7 @@ html,body{
     width: 65vw;
     position: relative;
     margin-left: 28%;
+    margin-top: 10%;
 }
 .page4-content h1{
     font-size: 7vw;
@@ -392,10 +393,10 @@ html,body{
 
 }
 .underline{
-    height: 1px;
+    height: .7px;
     width: 100%;
     margin: 5vw 0vw;
-    background-color: #fff;
+    background-color: #acacac;
 }
 
  .page4-content>p{                       /*  > ye just 1st wale to targer krta hai */
@@ -442,6 +443,7 @@ html,body{
     width: 100%;
     min-height: 100vh;
     position: relative;
+    
 }
 .elem{
     text-transform: uppercase;
