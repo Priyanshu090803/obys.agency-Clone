@@ -39,7 +39,7 @@ function loaderAnimation(){
 
     let tl = gsap.timeline();
     tl.from(".line h1",{
-        y:150, // ye animation dega y axis m . isse fonts niche se upr ko ayenge // ye niche rakh dega h1 ko
+        y:300, // ye animation dega y axis m . isse fonts niche se upr ko ayenge // ye niche rakh dega h1 ko
         stagger:0.2, // ek ek krke ayega isko lgake
         duration:0.6,
         delay:0.3
